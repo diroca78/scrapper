@@ -20,17 +20,20 @@ python_function = driver.find_element_by_class_name('images-viewer')
 python_function.click()
 soup_results_section = BeautifulSoup(driver.page_source, 'html.parser')
 #price = soup_results_section.body.main.div.
+item_url = driver.current_url;
+print(item_url)
 
 price_box = soup_results_section.find('span', attrs={'class':'price-tag-fraction'})
 price = price_box.text.strip()
 print(price)
 
 specs_box = soup_results_section.find_all('li', attrs={'class':'specs-item'})
-specs = specs_box.text.strip()
-print(specs)
+for thing in specs_box:
+    print(thing.text.strip())
 
-link = soup_results_section.find('link', attrs={'rel':'canonical'})
-print(link)
+location_box = soup_results_section.find('div', attrs={'class':'location-info'})
+location = location_box.text.strip()
+print(location_box)
 
 # with open('car-prices.txt', 'w') as text_file:
 #     text_file.write(str(soup))
