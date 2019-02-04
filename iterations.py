@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup
 from time import sleep
 import csv
 from selenium import webdriver
+from selenium.webdriver import ActionChains
+from selenium.webdriver.common.keys import Keys
 
 
 data = []
@@ -14,27 +16,63 @@ soup = BeautifulSoup(page,'html.parser')
 driver = webdriver.Firefox()
 driver.implicitly_wait(30)
 driver.get(pages)
-
+actions = ActionChains(driver)
+#get images array
 python_function = driver.find_element_by_class_name('images-viewer')
-#print(python_function)
-python_function.click()
-soup_results_section = BeautifulSoup(driver.page_source, 'html.parser')
-#price = soup_results_section.body.main.div.
-item_url = driver.current_url;
-print(item_url)
+#images_matrix = driver.find_elements_by_xpath('//div[contains(@id, "images-viewwer")]//a[contains(@href, "rooms")]')
+#images_matrix = driver.find_elements_by_xpath('//div[contains(@id, "images-viewer")]')
+images_matrix = driver.find_elements_by_xpath ("//div[@class='images-viewer']")
+print(len(images_matrix))#images_matrix = driver.find_elements_by_xpath ("//div[@class='item-link item__js-link']")
+a = 0
+original_window_handle = driver.current_window_handle
+print(original_window_handle)
 
-price_box = soup_results_section.find('span', attrs={'class':'price-tag-fraction'})
-price = price_box.text.strip()
-print(price)
+for images in images_matrix:
+    print(images_matrix[a])
+    #python_function.click()
+    actions.key_down(Keys.SHIFT).click(images_matrix[a]).key_up(Keys.SHIFT)
+    actions.perform()
+    actions.reset_actions()
+    #actions.key_down(Keys.SHIFT).click(images_matrix[a]).perform()
 
-specs_box = soup_results_section.find_all('li', attrs={'class':'specs-item'})
-for thing in specs_box:
-    print(thing.text.strip())
+    sleep(2)
+    driver.switch_to.window(driver.window_handles[1])
+    handles = driver.window_handles
+    current_window_handle = driver.current_window_handle
+    print(handles)
+    #
+    # soup_results_section = BeautifulSoup(driver.page_source, 'html.parser')
+    # item_url = driver.current_url;
+    # print(item_url)
+    #
+    # price_box = soup_results_section.find('span', attrs={'class':'price-tag-fraction'})
+    # price = price_box.text.strip()
+    # print(price)
+    #
+    # specs_box = soup_results_section.find_all('li', attrs={'class':'specs-item'})
+    # for thing in specs_box:
+    #     print(thing.text.strip())
+    #
+    # location_box = soup_results_section.find('div', attrs={'class':'location-info'})
+    # location = location_box.text.strip()
+    # print(location.strip('El vehículo está en '))
+    #
+    sleep(2)
+    b = 1
+    for wh in handles:
+        if wh != original_window_handle:
+            print(wh)
+            driver.switch_to.window(wh)
+            driver.close()
+        #b = b + 1
+    #sleep(2)
+    driver.window_handles = original_window_handle
+    driver.switch_to.window(original_window_handle)
+    sleep(2)
 
-location_box = soup_results_section.find('div', attrs={'class':'location-info'})
-location = location_box.text.strip()
-print(location_box)
+    a = a + 1
 
+#####################################################################################################################
 # with open('car-prices.txt', 'w') as text_file:
 #     text_file.write(str(soup))
 # sleep(1)
