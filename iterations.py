@@ -3,6 +3,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from time import sleep
 import csv
+import pandas
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
@@ -21,9 +22,21 @@ actions = ActionChains(driver)
 python_function = driver.find_element_by_class_name('images-viewer')
 #images_matrix = driver.find_elements_by_xpath('//div[contains(@id, "images-viewwer")]//a[contains(@href, "rooms")]')
 #images_matrix = driver.find_elements_by_xpath('//div[contains(@id, "images-viewer")]')
-images_matrix = driver.find_elements_by_xpath ("//div[@class='images-viewer']")
+#images_matrix = driver.find_elements_by_xpath ("//div[@class='images-viewer']")
+images_matrix = driver.find_elements_by_xpath ("//div[@class='item__info ']")
+source_code = []
+with open("source.txt","w") as new_file:
+        for source in images_matrix:
+            with open("source.txt","a") as source_file:
+                source_file.write(source.get_attribute("outerHTML") + "\n\n\n\n")
+
 
 print(len(images_matrix))#images_matrix = driver.find_elements_by_xpath ("//div[@class='item-link item__js-link']")
+with open("images.txt","w") as new_file:
+    for image in images_matrix:
+        with open("images.txt","a") as images_file:
+            images_file.write(str(image) + "\n")
+    images_file.close()
 
 original_window_handle = driver.current_window_handle
 print(original_window_handle)
@@ -61,7 +74,6 @@ for images in images_matrix:
     # location = location_box.text.strip()
     # print(location.strip('El vehículo está en '))
     #
-    driver.back()
     sleep(2)
     #i = 1
     #while i <= len(driver.window_handles):
