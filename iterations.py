@@ -22,24 +22,28 @@ python_function = driver.find_element_by_class_name('images-viewer')
 #images_matrix = driver.find_elements_by_xpath('//div[contains(@id, "images-viewwer")]//a[contains(@href, "rooms")]')
 #images_matrix = driver.find_elements_by_xpath('//div[contains(@id, "images-viewer")]')
 images_matrix = driver.find_elements_by_xpath ("//div[@class='images-viewer']")
+
 print(len(images_matrix))#images_matrix = driver.find_elements_by_xpath ("//div[@class='item-link item__js-link']")
-a = 0
+
 original_window_handle = driver.current_window_handle
 print(original_window_handle)
 
 for images in images_matrix:
-    print(images_matrix[a])
+    print(images)
     #python_function.click()
-    actions.key_down(Keys.SHIFT).click(images_matrix[a]).key_up(Keys.SHIFT)
+    actions.move_to_element(images)
+    #actions.click(images)
+    actions.key_down(Keys.SHIFT).click(images).key_up(Keys.SHIFT)
     actions.perform()
     actions.reset_actions()
     #actions.key_down(Keys.SHIFT).click(images_matrix[a]).perform()
 
     sleep(2)
-    driver.switch_to.window(driver.window_handles[1])
-    handles = driver.window_handles
-    current_window_handle = driver.current_window_handle
-    print(handles)
+    #print(len(driver.window_handles))
+    #driver.switch_to.window(driver.window_handles[-1])
+    #handles = driver.window_handles
+    #current_window_handle = driver.current_window_handle
+    #print(handles)
     #
     # soup_results_section = BeautifulSoup(driver.page_source, 'html.parser')
     # item_url = driver.current_url;
@@ -57,20 +61,22 @@ for images in images_matrix:
     # location = location_box.text.strip()
     # print(location.strip('El vehículo está en '))
     #
+    driver.back()
     sleep(2)
-    b = 1
-    for wh in handles:
-        if wh != original_window_handle:
-            print(wh)
-            driver.switch_to.window(wh)
-            driver.close()
-        #b = b + 1
+    #i = 1
+    #while i <= len(driver.window_handles):
+    #    driver.switch_to.window(driver.window_handles[i])
+    #    if wh != original_window_handle:
+    #        print(wh)
+    #        driver.switch_to.window(wh)
+    #    driver.close()
+    #    i = i + 1
     #sleep(2)
-    driver.window_handles = original_window_handle
-    driver.switch_to.window(original_window_handle)
-    sleep(2)
-
-    a = a + 1
+    #driver.window_handles = original_window_handle
+    #driver.switch_to.window(original_window_handle)
+    #driver.switch_to.window(driver.window_handles[0])
+    #driver.clear_cache(driver)
+    #sleep(2)
 
 #####################################################################################################################
 # with open('car-prices.txt', 'w') as text_file:
