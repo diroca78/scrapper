@@ -1,192 +1,48 @@
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">54.800.000</span></div> <div class="item__attrs"> 2014 | 108.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Volkswagen Amarok Andina Mt 2000cc 4x4 1td Rin Lujo </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">27.800.000</span></div> <div class="item__attrs"> 2011 | 80.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Chevrolet Cruze Platinum Lt At 1800cc 4p Ct Tc </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">15.500.000</span></div> <div class="item__attrs"> 1998 | 105.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Hyundai Tiburón </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">49.000.000</span></div> <div class="item__attrs"> 2011 | 21.385 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Dodge Ram 2500 Crew Cab [slt] At 6700cc Td 4x4 </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">17.300.000</span></div> <div class="item__attrs"> 2008 | 88.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Chevrolet Aveo Emotion Mt 1600 Cc Aa 1ab </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">59.641.000</span></div> <div class="item__attrs"> 2019 | 100 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Renault Duster 2019 0km Con Trabajo, Cupo Y Matrícula </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">7.300.000</span></div> <div class="item__attrs"> 1997 | 178.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Renault Twingo U Authentique Mt 1200cc 8v Sa </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">17.500.000</span></div> <div class="item__attrs"> 2007 | 146.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Citroën C4 C4 </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">12.900.000</span></div> <div class="item__attrs"> 2007 | 147.886 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Hyundai Getz Gl Mt 1400cc 5p 16v </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">14.000.000</span></div> <div class="item__attrs"> 2006 | 92.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Renault Clio </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">10.900.000</span></div> <div class="item__attrs"> 2005 | 129.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Volkswagen Gol Plus Mt 1000cc 3p </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">35.000.000</span></div> <div class="item__attrs"> 2016 | 48.846 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Kia Rio 2016 </span></h2> <div class="item__location">Valle Del Cauca</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">12.800.000</span></div> <div class="item__attrs"> 2012 | 65.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Chery Otros Modelos A113 </span></h2> <div class="item__location">Antioquia</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">122.278.000</span></div> <div class="item__attrs"> 2018 | 0 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Chevrolet Colorado Ltz 2.8 4*4 Mt </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">20.900.000</span></div> <div class="item__attrs"> 2009 | 124.950 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Volkswagen Jetta Jetta Mt 2000cc 4p </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">27.500.000</span></div> <div class="item__attrs"> 2014 | 35.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Seat Leon Stylance Dsg Tp 2.0 5p </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">35.500.000</span></div> <div class="item__attrs"> 2008 | 165.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Chevrolet Luv D-max Mt 4x4 Diesel 3000cc Dc </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">15.500.000</span></div> <div class="item__attrs"> 2006 | 113.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Renault Mégane Ii Dynamique Sedan At Fe </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">16.900.000</span></div> <div class="item__attrs"> 2008 | 120.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Renault Mégane Ii Hb 2.0 Mt F.e Te </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">13.000.000</span></div> <div class="item__attrs"> 2008 | 113.900 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Renault Twingo </span></h2> <div class="item__location">Valle Del Cauca</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">33.000.000</span></div> <div class="item__attrs"> 2010 | 136.211 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Dodge Journey 2010 </span></h2> <div class="item__location">Valle Del Cauca</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">43.000.000</span></div> <div class="item__attrs"> 2009 | 108.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Toyota Hilux </span></h2> <div class="item__location">Antioquia</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">7.500.000</span></div> <div class="item__attrs"> 1992 | 282.753 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Mazda 323 1992 </span></h2> <div class="item__location">Valle Del Cauca</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">32.500.000</span></div> <div class="item__attrs"> 2009 | 87.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Nissan X-trail Classic Mt 2500cc 4x4 Aa </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">35.999.999</span></div> <div class="item__attrs"> 2015 | 61.348 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Chevrolet Sonic 1.6 2015 Financiación </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">62.500.000</span></div> <div class="item__attrs"> 2011 | 90.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Jeep Grand Cherokee Limited Tp 3600cc 4x4 </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">25.000.000</span></div> <div class="item__attrs"> 2010 | 140.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Mazda Mazda 3 Mazda 3 Automatico </span></h2> <div class="item__location">Antioquia</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">7.900.000</span></div> <div class="item__attrs"> 1984 | 73.517 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Chevrolet Swift 1994 </span></h2> <div class="item__location">Valle Del Cauca</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">115.800.000</span></div> <div class="item__attrs"> 2018 | 690 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Jeep Wrangler Sport Aut 2018 </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">14.500.000</span></div> <div class="item__attrs"> 2005 | 91.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Renault Mégane Ll Dynamic 2.0 At </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">49.900.000</span></div> <div class="item__attrs"> 2016 | 26.400 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Volkswagen Golf Sportwagen S Dsg Automatica 2.0 Turbo </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">112.000.000</span></div> <div class="item__attrs"> 2018 | 8.013 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Nissan Murano Sl At 3500cc </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">20.900.000</span></div> <div class="item__attrs"> 2010 | 78.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Chevrolet Optra Advance Mt 1600cc 4p </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">26.500.000</span></div> <div class="item__attrs"> 2003 | 406.330 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Chevrolet Luv Tfr 2003 </span></h2> <div class="item__location">Valle Del Cauca</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">13.000.000</span></div> <div class="item__attrs"> 2008 | 112.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Renault Symbol Expression Fase Iv At 1600cc 16v </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">24.900.000</span></div> <div class="item__attrs"> 2013 | 62.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Volkswagen Gol Comfortline I-motion Tp 1600cc 5p Asg </span></h2> <div class="item__location">Risaralda</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">15.000.000</span></div> <div class="item__attrs"> 2007 | 119.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Chevrolet Optra Mt 1800cc Hb </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">52.899.999</span></div> <div class="item__attrs"> 2017 | 10.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Jmc Pick-up 2017 Diesel 4x4 Recibo Carro Y Compro </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">21.500.000</span></div> <div class="item__attrs"> 2011 | 46.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Chevrolet Aveo Emotion At 1600cc Aa Abs </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">23.500.000</span></div> <div class="item__attrs"> 2018 | 18.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Suzuki Alto New 800cc Std Abs </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">76.000.000</span></div> <div class="item__attrs"> 2014 | 34.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Jaguar Xf 2.0 Luxury Turbo </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">108.900.000</span></div> <div class="item__attrs"> 2017 | 36.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Nissan Frontier Np300 Mt 2500cc 4x4 Diesel </span></h2> <div class="item__location">Risaralda</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">31.900.000</span></div> <div class="item__attrs"> 2017 | 14.705 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Renault Sandero Expression Mt 1600cc 8v Aa </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">11.500.000</span></div> <div class="item__attrs"> 1994 | 250.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Chevrolet Trooper 1994 Estadar Con Gas </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">228.000.000</span></div> <div class="item__attrs"> 2017 | 23.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Toyota Prado Vx Europea 3000cc At Ct </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">39.900.000</span></div> <div class="item__attrs"> 2014 | 55.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Mazda Mazda 3 Mazda 3 All New Sedan Mt 1.6 </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">73.000.000</span></div> <div class="item__attrs"> 2019 | 7.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Volkswagen Jetta Highline 1.4t 2019 Aut (817) </span></h2> <div class="item__location">Risaralda</div> </div>
-
-
-
-<div class="item__info "><div class="item__price "> <span class="price__symbol">$</span> <span class="price__fraction">48.899.999</span></div> <div class="item__attrs"> 2013 | 50.000 Km</div><h2 class="item__title list-view-item-title"> <span class="main-title"> Audi A1 2013 Turbo Recibo Mayor Valor Carros </span></h2> <div class="item__location">Bogotá D.c.</div> </div>
-
-
-
+https://articulo.tucarro.com.co/MCO-498835475-volkswagen-amarok-diesel-4x4-_JM
+https://articulo.tucarro.com.co/MCO-493365031-chevrolet-cruze-platinum-18-sunroof-full-_JM
+https://articulo.tucarro.com.co/MCO-486568228-hyundai-tiburon-_JM
+https://articulo.tucarro.com.co/MCO-482167716-dodge-ram-_JM
+https://articulo.tucarro.com.co/MCO-500930295-renault-twingo-_JM
+https://articulo.tucarro.com.co/MCO-498225024-chevrolet-aveo-ls-4puertas-aire-acondicionado-_JM
+https://articulo.tucarro.com.co/MCO-499525455-renault-duster-2019-0km-con-trabajo-cupo-y-matricula-_JM
+https://articulo.tucarro.com.co/MCO-499928710-hyundai-getz-_JM
+https://articulo.tucarro.com.co/MCO-496941962-citroen-c4-_JM
+https://articulo.tucarro.com.co/MCO-501760898-volkswagen-gol-plus-1000cc-mt-3p-_JM
+https://articulo.tucarro.com.co/MCO-497255906-renault-clio-_JM
+https://articulo.tucarro.com.co/MCO-491985337-kia-rio-2016-_JM
+https://articulo.tucarro.com.co/MCO-501105765-chevrolet-luv-d-max-4x4-diesel-3000cc-doble-cabina-_JM
+https://articulo.tucarro.com.co/MCO-501760899-renault-megane-ii-hb-20-mt-fe-te-_JM
+https://articulo.tucarro.com.co/MCO-500243862-volkswagen-jetta-_JM
+https://articulo.tucarro.com.co/MCO-495535399-seat-leon-_JM
+https://articulo.tucarro.com.co/MCO-497287437-renault-twingo-_JM
+https://articulo.tucarro.com.co/MCO-483122557-chevrolet-colorado-ltz-mt-paguela-en-el-2020-_JM
+https://articulo.tucarro.com.co/MCO-500280659-renault-megane-ii-dynamique-sedan-at-fe-2006-_JM
+https://articulo.tucarro.com.co/MCO-497275667-mazda-mazda-3-mazda-3-automatico-triptonico-_JM
+https://articulo.tucarro.com.co/MCO-501368189-toyota-hilux-_JM
+https://articulo.tucarro.com.co/MCO-489294271-dodge-journey-2010-_JM
+https://articulo.tucarro.com.co/MCO-500339322-jeep-grand-cherokee-limited-4x4-_JM
+https://articulo.tucarro.com.co/MCO-492434161-chevrolet-sonic-16-2015-financiacion-_JM
+https://articulo.tucarro.com.co/MCO-489930649-mazda-323-1992-_JM
+https://articulo.tucarro.com.co/MCO-497067238-jeep-wrangler-sport-aut-2018-_JM
+https://articulo.tucarro.com.co/MCO-500927061-renault-symbol-automatico-13-millones-_JM
+https://articulo.tucarro.com.co/MCO-489813465-chevrolet-swift-1994-_JM
+https://articulo.tucarro.com.co/MCO-501207826-renault-megane-ll-dynamic-20-at-_JM
+https://articulo.tucarro.com.co/MCO-498464798-volkswagen-golf-sportwagen-s-dsg-automatica-20-turbo-_JM
+https://articulo.tucarro.com.co/MCO-499091372-chevrolet-optra-hatchback-con-techo-_JM
+https://articulo.tucarro.com.co/MCO-498354516-chevrolet-optra-advance-1600cc-mt-_JM
+https://articulo.tucarro.com.co/MCO-497560288-nissan-murano-_JM
+https://articulo.tucarro.com.co/MCO-489935405-chevrolet-luv-tfr-2003-_JM
+https://articulo.tucarro.com.co/MCO-494402022-volkswagen-gol-comfortline-imotion-2013-aut-16-528-_JM
+https://articulo.tucarro.com.co/MCO-486644142-jmc-pick-up-2017-diesel-4x4-recibo-carro-y-compro-_JM
+https://articulo.tucarro.com.co/MCO-498621320-suzuki-alto-new-800cc-glx-abs-fe-2018-_JM
+https://articulo.tucarro.com.co/MCO-502122346-nissan-qashqai-advance-4x2-tiptronica-_JM
+https://articulo.tucarro.com.co/MCO-501081828-chevrolet-aveo-emotion-at-1600cc-aa-abs-_JM
+https://articulo.tucarro.com.co/MCO-501371212-mazda-3-all-new-20-sedan-at-_JM
+https://articulo.tucarro.com.co/MCO-494402024-nissan-frontier-np300-25tdi-2017-aut-4x4-085-_JM
+https://articulo.tucarro.com.co/MCO-500243798-renault-sandero-2017-_JM
+https://articulo.tucarro.com.co/MCO-500962550-chevrolet-sonic-lt-_JM
+https://articulo.tucarro.com.co/MCO-500182423-toyota-prado-vx-europea-3000-cc-at-_JM
+https://articulo.tucarro.com.co/MCO-494402548-volkswagen-jetta-highline-14t-2019-aut-817-_JM
+https://articulo.tucarro.com.co/MCO-499166251-mercedes-benz-clase-a-200-_JM
+https://articulo.tucarro.com.co/MCO-500243660-nissan-tiida-_JM
+https://articulo.tucarro.com.co/MCO-487688673-audi-a1-2013-turbo-recibo-mayor-valor-carros-_JM
