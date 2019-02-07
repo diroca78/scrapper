@@ -8,18 +8,18 @@ from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 
-
-data = []
 pages = 'https://carros.tucarro.com.co/'
 page = urlopen(pages)
 soup = BeautifulSoup(page,'html.parser')
+
 #firefox session
 driver = webdriver.Firefox()
 driver.implicitly_wait(30)
 driver.get(pages)
 actions = ActionChains(driver)
+
 #get images array
-python_function = driver.find_element_by_class_name('images-viewer')
+#python_function = driver.find_element_by_class_name('images-viewer')
 #images_matrix = driver.find_elements_by_xpath('//div[contains(@id, "images-viewwer")]//a[contains(@href, "rooms")]')
 #images_matrix = driver.find_elements_by_xpath('//div[contains(@id, "images-viewer")]')
 images_matrix = driver.find_elements_by_xpath ("//div[@class='images-viewer']")
@@ -36,37 +36,57 @@ with open("source.txt","w") as new_file:
 
 #print(urls_list)
 #iterate over URLs to get Detailed info
-data = []
+data = {} #final dictionary per page
 data_columns = ['ITEM','MARCA','MODELO','PRECIO','AÑO','KILOMETRAJE','COMBUSTIBLE','VERSION','COLOR','DIRECCION','TRANSMISSION','TRACCION']
+index = 0
 for url in urls_list:
     new_page = urlopen(url)
     new_soup = BeautifulSoup(new_page,'html.parser')
+    specs = {}
 
-    #get price
+    ## Get the price
     price_box = new_soup.find('span', attrs={'class':'price-tag-fraction'})
-    price = price_box.text.strip()
-    #print(price)
-    #item =
+    price = price_box.text.strip() #Format
+    specs['Precio'] = price
 
-    #get specificacions
-    #recorrido = new_soup.find('li', attrs={'class':'specs-item'}, text="Recorrido")
-    #print(recorrido)
+    ## Get specificacions
     specs_box = new_soup.find_all('li', attrs={'class':'specs-item'})
-    print(specs_box)
-    specs = []
     for thing in specs_box:
-        specs.append(thing.text.strip())
-        #if print('yey')
-        #print(thing.text.strip())
-        #print(type(specs))
-    print(specs)
-    exit()
+        thing_to_string = thing.text.strip()
+        string_to_list = thing_to_string.replace('\n',',')
+        string_to_list = string_to_list.split(',')
+        for string in string_to_list:
+            specs[string_to_list[0]] = string_to_list[1]
 
-    #get location
+    ## Get location
     location_box = new_soup.find('div', attrs={'class':'location-info'})
-    location = location_box.text.strip()
-    #print(location.strip('El vehículo está en '))
+    location = location_box.text.strip().strip('El vehículo está en ')
+    specs['Ubicacion'] = location
+    data[index] = specs
+    index = index + 1
 
+print(data)
+print('\n')
+print(type(data))
+driver.close()
+exit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###################################################################################
     #
     # driver = webdriver.Firefox()
     # driver.implicitly_wait(30)
@@ -80,9 +100,6 @@ for url in urls_list:
     # sleep(2)
     # #driver.close()
     #
-
-#driver.close()
-exit()
 
 #
 # print(len(images_matrix))#images_matrix = driver.find_elements_by_xpath ("//div[@class='item-link item__js-link']")
